@@ -19,15 +19,8 @@ The indent space size can be entered as a parameter to object constructor. If no
 ## Work under the hood
 
 AlterJX automatically detects the type of the source data. Then it converts the data to a desired type step by step. For example, to turn a JSON string to XML string; AlterJX turns the JSON string to JavaScript object first. Then turns that JavaScript object to DOM element and finally turns it to an XML string.
-~~~mermaid
-graph LR;
-	JSON-->JS;
-	JS-->JSON;
-	JS-->DOM;
-	DOM-->JS;
-	DOM-->XML;
-	XML-->DOM;
-~~~
+
+![graph](graph.png)
 
 ## License
 This project is [public domain CC0](https://creativecommons.org/publicdomain/zero/1.0/) licensed; therefore, you can copy, modify, distribute and use it, even for commercial purposes, without asking any permission.
