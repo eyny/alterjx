@@ -1,7 +1,7 @@
 # AlterJX
 A modern JavaScript plugin written in ECMAScript 2015 (ES6) to convert JSON, JS, DOM and XML data to each other. An example usage which coverts an XML file to JSON file can be seen as this:
 ```javascript
-var alterJX = new AlterJX();
+const alterJX = new AlterJX();
 alterJX.toJSON(myXMLString);
 ```
 
