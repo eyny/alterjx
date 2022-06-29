@@ -12,7 +12,7 @@ You can use 4 methods to convert data by specifying the target data type. You do
 * toDOM(source) - Converts source file to a DOM object
 * toXML(source) - Converts source file to an XML string
 
-The indent space size can be entered as a parameter to object constructor. If not specified, the default value of 2 will be used. You can also get and set the indent space size after an object is initialized by reading or changing ```indentSize``` field of the object.
+The indent space size can be entered as a parameter to the object constructor. If not specified, the default value of 2 will be used. You can also get and set the indent space size after an object is initialized by reading or changing ```indentSize``` field of the object.
 
 
 
